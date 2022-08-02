@@ -65,11 +65,10 @@
 
   <script>
     function confirmarExclusao (id, prod) {
-      if (window.confirm("Deseja realmente excluir o registro? \n" + id + " - " + prod + "\n\n\n???")) {
+      if (window.confirm("Deseja realmente excluir o registro? \n" + id + " - " + prod)) {
         window.location = "excluirProduto.php?idProduto="+id;
       }
     }
-
   </script>
 
 </head>
